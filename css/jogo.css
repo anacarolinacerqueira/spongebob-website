@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#bob-icon{
+	width: 3em;
+	height: auto;
+	opacity: 0.8;
+	float: right;
+	margin: 1%;
+}
+
+#bob-icon:hover{
+	opacity: 1;
+}
