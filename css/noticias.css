@@ -1,0 +1,149 @@
+﻿#iframe{
+	width: 100%;
+	height: auto;
+	border: none;
+	overflow: hidden;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+}
+
+body{
+	top: 0;
+	right:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../img/fenda.jpg");
+	background-size: 100%;
+}
+
+#content{
+	width: 70%;
+	float: right;
+	margin-right: 5%;
+	background-color: white;
+	opacity: 0.95;
+	box-sizing: border-box;
+	margin-bottom: 2%;
+	margin-top: 8%;
+}
+
+.noticia{
+	float: left;
+	width: 30%;
+	height: auto;
+	padding: 2%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 2%;
+	margin-bottom: 0%;
+}
+
+#titulo-pag {
+	width: 98%;
+	height: auto;
+	float: left;
+	margin-left: 0%;
+	background-color: #e8d43c;
+	text-align: center;
+	margin-top: 0%;
+	padding: 1%;
+	font-size: 1.8em;
+}
+
+.titulo-not {
+	float: left;
+	font-size: 1.2em;
+	padding: 2%;
+	width: 100%;
+	font-weight: bold;
+}
+
+.noticia h5 {
+	width: 100%;
+	height: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 0.7em;
+	padding: 1%;
+}
+
+.noticia p{
+	padding: 1%;
+	font-size: 0.9em;
+}
+
+.noticia p a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.noticia p a:hover {
+	background-color: #F7E97E;
+}
+
+.mais {
+	float: right;
+	text-align: center;
+	width: 20%;
+	background-color: #DBF1FC;
+	padding: 1%;
+	margin-right: 23%;
+}
+
+@media only screen and (max-width: 966px) and (min-width: 700px) {
+	#content {
+		margin-top: 12%;
+		width: 80%;
+	}
+
+    	.noticia {
+		width: 45%;
+		height: auto;
+		display: block;
+	}
+
+	#titulo-pag{
+		width: 96%;
+		padding: 2%;
+	}
+}
+
+@media only screen and (min-width: 360px) and (max-width: 699px) {
+	#content {
+		margin-top: 40%;
+		width: 95%;
+		margin-right: 2%;
+	}
+
+    	.noticia {
+		width: 100%;
+		height: auto;
+		display: block;
+		padding-right: 5%;
+	}
+
+	#titulo-pag{
+		width: 96%;
+		padding: 2%;
+	}
+}
+
+@media only screen and (max-width: 359px){
+	#content {
+		margin-top: 50%;
+		width: 95%;
+		margin-right: 2%;
+		margin-left: 1%;
+	}
+
+    	.noticia {
+		width: 90%;
+		height: auto;
+		display: block;
+		padding-right: 5%;
+	}
+
+}

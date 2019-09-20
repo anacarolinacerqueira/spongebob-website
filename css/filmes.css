@@ -1,0 +1,225 @@
+﻿* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#iframe {
+	float: left;
+	width: 100%;
+	height: auto;							
+	border: none;
+	overflow: hidden;
+	position: fixed;
+}
+
+
+header h1 {
+	width: 80%;
+	height: auto;
+	float: left;
+	background-color: #e8d43c;
+	text-align: center;
+	padding: 1.5%;
+	font-size: 2em;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+
+.filme {
+	float: left;
+	margin-top: 3%;
+	padding-left: 15%;
+	width: 100%;
+	height: auto;
+	margin-bottom: 2%;
+}
+
+.filme h2 {
+	float: left;
+	font-size: 1.5em;
+	padding: 1%;
+	background-color: #CDEDFD;
+	width: 80%;
+	padding-left: 3%;
+}
+
+.cartaz {
+	float: left;
+	width: 20%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+.cartaz img {
+	margin-top: 2%;
+	width: 100%;
+	height: auto;
+}
+
+article {
+	float: left;
+	width: 30%;
+	height: auto;
+	margin: 2%;
+}
+
+article p{
+	padding-top: 2%;
+	font-size: 1em;
+}
+
+.titulo-personagens{
+	margin-top: 2%;
+	font-size: 1em;
+	padding: 2%;
+	float: left;
+	display: inline;
+	width: 100%;
+	background-color: #DBF1FC;
+}
+
+.mais {
+	float: right;
+	text-align: center;
+	width: 20%;
+	background-color: #DBF1FC;
+	padding: 1%;
+	margin-right: 23%;
+}
+
+.mais a{
+	text-decoration: none;
+	color: #FC7753;
+}
+
+.video {
+	float: left;
+	width: 22%;
+	height: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: none;
+}
+
+/* Dispositivos Muito Pequenos (menores que 600px) */
+@media only screen and (max-width: 600px) {
+	header h1 {
+		background-color: #e8d43c;
+		text-align: center;
+		font-size: 1.8em;
+		margin-top: 40%;
+	}
+
+    .filme{
+		width: 100%;
+		padding: 0%;
+	}
+	.filme h2{
+		width: 100%;
+		padding: 2%;
+		text-align: center;
+		font-size: 1.2em;
+	}
+	.cartaz{
+		width: 40%;
+	}
+	article{
+		width: 50%;
+	}
+	article p{
+		font-size: 0.8em;
+	}
+	.mais{
+		float: left;
+		width: 100%;
+		margin: 0%;
+	}
+	.video{
+		width: 100%;
+		height: auto;
+	}
+}
+
+/* Dispositivos Pequenos a Médios (a partir de 600px até 767) */
+@media only screen and (min-width: 601px) and (max-width: 767px)  {
+	.filme{
+		padding-left: 10%
+	}
+  	.filme h2{
+		width: 90%;
+		padding: 2%;
+		text-align: center;
+		font-size: 1.8em;
+	}
+	.cartaz{
+		width: 35%;
+	}
+	article{
+		width: 50%;
+	}
+	article p{
+		font-size: 1em;
+	}
+
+	.titulo-personagens{
+		font-size: 1.5em;
+	}																																		
+
+	.mais{
+		float: left;
+		width: 100%;
+		margin: 0%;
+	}
+	.video{
+		width: 100%;
+		height: auto;
+		padding-left: 20%;
+		padding-right: 20%;																																																																																				
+	}
+}
+
+/* Dispositivos Médios a Grandes (a partir de 768px até 1199px) */
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+  	.filme{
+  		width: 100%;
+  	}
+}
+
+/* Dispositivos Muito Grandes (a partir de 1200px) */
+@media only screen and (min-width: 1200px) {
+	.filme{
+		padding-left: 10%;
+	}
+
+	.filme h2 {
+		font-size: 2em;
+		padding: 1%;
+		background-color: #CDEDFD;
+		width: 90%;
+		padding-left: 3%;
+	}
+	.cartaz {
+		width: 23%;
+	}
+
+	article {
+		width: 40%;
+	}
+
+	.titulo-personagens{
+		font-size: 1.5em;
+	}
+
+	article p{
+		font-size: 1.3em;
+	}
+
+	.mais{
+		width: 40%;
+		margin-top: 0%;
+		font-size: 1.5em;
+	}
+}

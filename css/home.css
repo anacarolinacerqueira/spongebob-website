@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#iframe{
+	width: 100%;
+	height: auto;
+	border: none;
+	overflow: hidden;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+}
+
+body{
+	top: 0;
+	right:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#spongebob{
+	float: left;
+	top: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;;
+	background-color: #75c4d6;
+}
+
+#spongebob h1{
+	float: left;
+	display: inline;
+	width: 40%;
+	margin-top: 10%;
+	padding-left: 15%;
+	padding-top: 5%;
+	height: auto;
+	text-align: center;
+	font-size: 2em;
+}
+
+#bobbox{
+	float: right;
+	display: inline;
+	width: 40%;
+	height: auto;
+	padding-top: 8%;
+	padding-right: 15%;
+	padding-bottom: 3%;
+}
+
+#bob-main{
+	border-radius: 50%;
+	width: 100%;
+}
+
+#ready{
+	background-color: #f1f7ed;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#ready h3{
+	margin: 2%;
+	text-align: center;
+	color: #000500;
+	font-size: 2.2em;
+}
+
+#about{
+	float: left;
+	background-color: #ffec60;
+	width: 100%;
+	height: auto;
+	padding-bottom: 5%;
+}
+
+#about h6{
+	display: none;
+}
+
+#about p{
+	float: right;
+	display: inline;
+	width: 35%;
+	margin-right: 10%;
+	margin-top: 8%;
+	font-size: 1.2em;
+}
+
+#main-video{
+	width: 40%;
+	float: left;
+	display: inline;
+	margin-left: 10%;
+	margin-top: 10%;
+	border: none;
+}
+
+#video{
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 516px) {
+	#spongebob h1{
+		display: none;
+	}
+
+	#bobbox{
+		width: 100%;
+		background-color: white;
+		padding-right: 0;
+		margin-right: 0%;
+		margin-bottom: 0%;
+		margin-top: 36%;
+	}
+	#ready{
+		font-size: 1em;
+	}
+
+	#bob-main{
+		width: 80%;
+		margin-left: 10%;
+	}
+	#about p{
+		width: 80%;
+		margin-left: 10%;
+		float: left;
+	}
+	#main-video{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 83%;
+		height: 100%;
+	}
+
+	#video{
+		position: relative;
+		padding-bottom: 56.25%;
+		margin-bottom: 15%;
+	}
+}
+
+@media screen and (min-width: 518px) and (max-width: 710px) {
+	#spongebob h1{
+		float: left;
+		width: 100%;
+		box-sizing: border-box;
+		margin-top: 30%;	
+		padding-bottom: 10%;
+		margin-left: -10%;
+	}
+
+	#bobbox{
+		width: 100%;
+		background-color: white;
+		padding-right: 0;
+		margin-right: 0%;
+		margin-bottom: 0%;
+		padding-bottom: 10%;
+	}
+
+	#bob-main{
+		width: 65%;
+		float: left;
+		margin-left: 15%;
+		margin-top: 1%;
+	}
+
+	#ready{
+		font-size: 1em;
+		background-color: #FC7753;
+	}
+
+	#about p{
+		width: 80%;
+		float: left;
+		padding: 10%;
+		background-color: white;
+		font-size: 1.2em;;
+		margin-left: 10%
+	}
+
+	#main-video{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 83%;
+		height: 100%;
+	}
+
+	#video{
+		position: relative;
+		padding-bottom: 56.25%;
+		margin-bottom: 15%;
+	}
+}
