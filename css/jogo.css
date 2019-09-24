@@ -8,10 +8,71 @@
 	width: 3em;
 	height: auto;
 	opacity: 0.8;
-	float: right;
 	margin: 1%;
+	margin-right: 3%;
 }
 
 #bob-icon:hover{
 	opacity: 1;
+}
+
+.home-btn p{
+	float: right;
+	position: relative;
+	margin-top: 6%;
+	right: 0%;
+	width: 5%;
+}
+
+h1{
+	margin-top: 2%;
+	margin-left: 30%;
+}
+
+#memory{
+	width: 30%;
+	height: 35%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 18%;
+	border: 2px solid transparent;
+}
+
+#memory img{
+	width: 100%;
+	height: auto;
+}
+
+
+#memory:hover{
+	border: 2px solid red;
+}
+
+#quiz{
+	width: 30%;
+	height: 35%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	border: 2px solid transparent;
+}
+
+#quiz:hover{
+	border: 2px solid red;
+}
+
+#quiz img{
+	width: 100%;
+	height: auto;
+}
+
+#go{
+	float: right;
+	margin-top: 5%;
+	margin-right: 45%;
+	position: relative;
+	width: 10%;
+	height: 100%;
+	padding: 1%;
+	border: none;
 }

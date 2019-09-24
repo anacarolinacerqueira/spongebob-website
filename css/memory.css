@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+}
+
+#jogo{
+	float: left;
+	margin-left: 10%;
+	width: 80%;
+	height: auto;
+}
+
+.peça{
+	width: 20%;
+	height: 15%;
+	background-color: transparent;
+	float: left;
+	display: inline;
+}
+
+.frente{
+	width: 100%;
+	height: auto;
+	max-height: 10em;
+	padding: 3%;
+	position: relative;
+	display: hidden;
+}
+
+.verso{
+	width: 100%;
+	height: auto;
+	max-height: 10em;
+	padding: 3%;
+	position: relative;
+	display: none;
+}
