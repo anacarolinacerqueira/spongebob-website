@@ -11,15 +11,16 @@
 	border: none;
 	overflow: hidden;
 	top: 0;
-	position: absolute;
+	position: fixed;
+	z-index: 1;
 }
 
 #map{
-	margin-top: 8%;
+	margin-top: 10%;
 	margin-left: 10%;
 	width: 80%;
-	height: 100%;
-	margin-bottom: 10%;
+	height: 30em;
+	margin-bottom: 5%;
 }
 
 #local{
@@ -36,11 +37,44 @@ h2{
 	border-bottom: 4px solid #e8d43c;
 	border-top: 4px solid #e8d43c;
 	text-align: center;
-	padding: 2%;
+	padding: 1%;
 	font-size: 1.2em;
 	margin-bottom: 1%;
-	margin-top: 3%;
+	margin-top: 8%;
 }
+
+#contato{
+	background-color: red;
+	width: 100%;
+	height: auto;
+	padding: 10%;
+}
+
+form{
+	float: left;
+	width: 60%;
+	margin-left: 20%;
+}
+
+#nome{
+	float: left;
+	display: block;
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+
+#email{
+	float: left;
+	display: block;
+	margin-left: 20%;
+}
+
+.conteudo{
+	float: left;
+	display: block;
+	margin-left: 40%;
+}
+
 
 @media screen and (max-width: 640px) {
 	#map {

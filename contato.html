@@ -4,15 +4,47 @@
 	<link rel="stylesheet" type="text/css" href="css/contato.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<script src="js/contato.js"></script>
 	<title>Contato</title>
 </head>
 <body>
 	<header>
 		<iframe id="iframe" src="header.html"></iframe>
 	</header>
-	<h2> Desenvolvido por: Ana Carolina. <br> Me encontre aqui!</h2>
+	<h2> Desenvolvido por: Ana Carolina</h2>
 	<div id="map">
-		<iframe id="local" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.5486637762347!2d-38.507813!3d-13.000694!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f20f7c335e687c3!2sInstituto%20de%20Matem%C3%A1tica%20(UFBA)%20-%20Campus%20Ondina!5e0!3m2!1spt-BR!2sbr!4v1568599254386!5m2!1spt-BR!2sbr"></iframe>
 	</div>
+	<div id="contato">
+		<form action="pegadinha()">
+			<input id="nome" type="text" name="nome" placeholder="Nome">
+			<input id="email" type="text" name="email" placeholder="email">
+			<input class="conteudo" type="radio" name="conteudo" value="sim" checked>
+			<input class="conteudo" type="radio" name="conteudo" value="nao">
+			<input type="submit" name="enviar">
+		</form>
+	</div>
+
+	
+	<script>
+	function mapUfba() {
+		var location = {lat: -13.000341, lng: -38.507843};
+		var map = new google.maps.Map(document.getElementById("map"), {
+			zoom: 17,
+			center: location
+		});
+		var marker = new google.maps.Marker({
+			position: location,
+			map: map,
+			animation:google.maps.Animation.DROP	
+		})
+		var infowindow = new google.maps.InfoWindow({
+  			content:"Me encontre aqui!"
+			});
+			infowindow.open(map,marker); 
+	}
+	</script>
+
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_-iqw4z0FrjDxqDszgQlTTmcp-6Fnb7k&callback=mapUfba"></script>
+
 </body>
 </html>
