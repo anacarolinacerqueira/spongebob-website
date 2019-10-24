@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!-- Definição da base de membros -->
+<membros>
+	<membro>
+		<nome>Bob Esponja</nome>
+		<foto> </foto>
+	</membro>
+	<membro>
+		<nome>Patrick Estrela</nome>
+		<foto> </foto>
+	</membro>
+	<membro>
+		<nome>Lula Molusco</nome>
+		<foto> </foto>
+	</membro>
+	<membro>
+		<nome>Sr. Sirigueijo</nome>
+		<foto> </foto>
+	</membro>
+	<membro>
+		<nome>Sandy</nome>
+		<foto> </foto>
+	</membro>
+	<membro>
+		<nome>Plankton</nome>
+		<foto> </foto>
+	</membro>
+	<membro>
+		<nome>Pérola Sirigueijo</nome>
+		<foto> </foto>
+	</membro>
+	<membro>
+		<nome>Gary</nome>
+		<foto> </foto>
+	</membro>
+	<membro>
+		<nome>Karen</nome>
+		<foto> </foto>
+	</membro>
+	<membro>
+		<nome>Senhora Puff</nome>
+		<foto> </foto>
+	</membro>
+</membros>

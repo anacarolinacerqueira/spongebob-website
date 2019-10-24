@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!-- Definição da base de filmes -->
+<filmes>
+	<filme>
+		<titulo> Morrendo por uma Torta</titulo>
+		<titulo-original>Dying for a Pie</titulo-original>
+		<ano>2000</ano>
+		<capa>href="img/movie6.jpg</capa>
+		<titulo-resumo>Resumo</titulo-resumo>
+		<resumo> "Morrendo por uma Torta" é um episódio da 2ª temporada da série Bob Esponja Calça Quadrada. Neste episodio, Lula Molusco acidentalmente, dá a Bob Esponja uma torta explosiva. Lula Molusco, então, faz de tudo para que o último dia de Bob seja maravilhoso. </resumo>
+		<titulo-personagens>Principais Personagens</titulo-personagens>
+		<personagens> 
+			<personagem>Bob Esponja </personagem>
+			<personagem>Patrick Estrela</personagem>
+			<personagem>Lula Molusco</personagem>
+			<personagem>Seu Sirigueijo</personagem>
+			<personagem>Sandy</personagem>
+			<personagem>Plankton</personagem>
+			<personagem>Pérola Sirigueijo</personagem>
+			<personagem>Gary</personagem>
+			<personagem>Karen</personagem>
+			<personagem>Senhora Puff</personagem>
+		</personagens>
+		<resenha>https://spongebob.fandom.com/wiki/Dying_for_Pie</resenha>
+		<video>https://www.youtube.com/embed/d28ZMviCqtY</video>
+	</filme>
+
+	<filme>
+		<titulo>SpongeGuard on Duty</titulo>
+		<titulo-original>Salva-Vidas Bob em Serviço</titulo-original>
+		<ano>2002</ano>
+		<capa>href="img/movie9.jpg</capa>
+		<titulo-resumo>Resumo</titulo-resumo>
+		<resumo> Bob Esponja vai à praia com Patrick conversando sobre sava-vidas (tipo Larry); e Patrick/Bob Esponja fala algo sobre um caminhão de sorvetes que vai cair do céu (em aposta) e um caminhão de sorvetes cai do céu, do mesmo jeito falado. Um sorvete cai no nariz de Bob e Larry, a Lagosta, achou que o sorvete era protetor solar, que ficava no nariz de salva-vida, começando a achar Bob descolado.</resumo>
+		<titulo-personagens>Principais Personagens</titulo-personagens>
+		<personagens> 
+			<personagem>Bob Esponja </personagem>
+			<personagem>Patrick Estrela</personagem>
+			<personagem>Lula Molusco</personagem>
+			<personagem>Seu Sirigueijo</personagem>
+			<personagem>Sandy</personagem>
+			<personagem>Plankton</personagem>
+			<personagem>Pérola Sirigueijo</personagem>
+			<personagem>Gary</personagem>
+			<personagem>Karen</personagem>
+			<personagem>Senhora Puff</personagem>
+		</personagens>
+		<resenha>https://wikiesponja.fandom.com/pt-br/wiki/Salva-Vidas_Bob_em_Serviço</resenha>
+		<video>https://www.youtube.com/embed/pFKGkKcNHlw</video>
+	</filme>
+	<filme>
+		<titulo>Bob Esponja: O Filme</titulo>
+		<titulo-original>The SpongeBob SquarePants Movie</titulo-original>
+		<ano>2004</ano>
+		<capa>href="img/movie1.jpg</capa>
+		<titulo-resumo>Resumo</titulo-resumo>
+		<resumo> É mais uma bela manhã na Fenda do Bíkini. Bob Esponja está bastante animado, já que tem certeza de que vai se tornar o gerente do Siri Cascudo 2, uma réplica do famoso restaurante, que será construída bem ao lado do original. No entanto, na hora da inauguração, o Seu Sirigueijo nomeia Lula Molusco como gerente, alegando que Bob Esponja não é maduro e ainda é um "garoto". </resumo>
+		<titulo-personagens>Principais Personagens</titulo-personagens>
+		<personagens> 
+			<personagem>Bob Esponja </personagem>
+			<personagem>Patrick Estrela</personagem>
+			<personagem>Lula Molusco</personagem>
+			<personagem>Seu Sirigueijo</personagem>
+			<personagem>Sandy</personagem>
+			<personagem>Plankton</personagem>
+			<personagem>Pérola Sirigueijo</personagem>
+			<personagem>Gary</personagem>
+			<personagem>Karen</personagem>
+			<personagem>Senhora Puff</personagem>
+		</personagens>
+		<resenha>https://www.omelete.com.br/filmes/criticas/ibob-esponja-o-filmei</resenha>
+		<video>https://www.youtube.com/embed/Agqr8987-DA</video>
+	</filme>
+	<filme>
+		<titulo>Bob Esponja: Entrando numa Fria</titulo>
+		<titulo-original>SpongeBob's Truth or Square</titulo-original>
+		<ano>2009</ano>
+		<capa>href="img/movie5.jpg</capa>
+		<titulo-resumo>Resumo</titulo-resumo>
+		<resumo> Este Especial é da 6ª temporada em que O Siri Cascudo vai fazer uma festa (de aniversário do Siri Cascudo mesmo) e para finalizar a decoração (que é de Ketchup e Mostarda, pra variar) Bob preparou uma estátua gigante de Hambúrguer de Siri. Patrick, Bob Esponja, Lula Molusco e Eldini Siriguejo tentam empurrar, até que Bob estica demais e voa, voltando e trancando a porta do Freezer onde lá estavam. </resumo>
+		<titulo-personagens>Principais Personagens</titulo-personagens>
+		<personagens> 
+			<personagem>Bob Esponja </personagem>
+			<personagem>Patrick Estrela</personagem>
+			<personagem>Lula Molusco</personagem>
+			<personagem>Seu Sirigueijo</personagem>
+			<personagem>Sandy</personagem>
+			<personagem>Plankton</personagem>
+			<personagem>Pérola Sirigueijo</personagem>
+			<personagem>Gary</personagem>
+			<personagem>Karen</personagem>
+			<personagem>Senhora Puff</personagem>
+		</personagens>
+		<resenha>https://wikiesponja.fandom.com/pt-br/wiki/Entrando_Numa_Fria</resenha>
+		<video>https://www.youtube.com/embed/mmOSv0YHSPQ</video>
+	</filme>
+	<filme>
+		<titulo>Bob Esponja, Você Está Despedido!</titulo>
+		<titulo-original>SpongeBob, You're Fired</titulo-original>
+		<ano>2014</ano>
+		<capa>href="img/movie7.jpg</capa>
+		<titulo-resumo>Resumo</titulo-resumo>
+		<resumo> No episódio da nona (9ª) temporada, SpongeBob You're Fired!, Bob Esponja é demitido da lanchonete "The Krusty Krab", pois Sr. Sirigueijo descobre que pode economizar 5 centavos demitindo Bob Esponja (Lula Molusco não foi demitido pois ele já era antigo demais no Siri Cascudo) e, como sempre (visto no episódio Um Dia Sem Lágrimas) Bob chorou, e vai tentar se consolar na sua casa. </resumo>
+		<titulo-personagens>Principais Personagens</titulo-personagens>
+		<personagens> 
+			<personagem>Bob Esponja </personagem>
+			<personagem>Patrick Estrela</personagem>
+			<personagem>Lula Molusco</personagem>
+			<personagem>Seu Sirigueijo</personagem>
+			<personagem>Sandy</personagem>
+			<personagem>Plankton</personagem>
+			<personagem>Pérola Sirigueijo</personagem>
+			<personagem>Gary</personagem>
+			<personagem>Karen</personagem>
+			<personagem>Senhora Puff</personagem>
+		</personagens>
+		<resenha>https://wikiesponja.fandom.com/pt-br/wiki/Bob_Esponja,_Voc%C3%AA_Est%C3%A1_Despedido!</resenha>
+		<video>https://www.youtube.com/embed/1Eh5BL3u2qk</video>
+	</filme>
+	<filme>
+		<titulo>Bob Esponja na Idade da Pedra</titulo>
+		<titulo-original>SpongeBob Goes Prehistoric</titulo-original>
+		<ano>2014</ano>
+		<capa>href="img/movie8.jpg</capa>
+		<titulo-resumo>Resumo</titulo-resumo>
+		<resumo> São gargalhadas submarinas em dobro, nesta dupla-metragem de episódios com Bob Esponja, Patrick e Lula Molusco, como três pioneiros habitantes do mar nos tempos Antes da Comédia (A.C.). Bob Esponja A.C. Episódio com dupla-metragem - Patchy apresenta este episódio, mostrando os pré-históricos Spongegar, Patar e Squog. O trio descobre fogo. E ele queima. Mas também descobrem que fogo é ótimo para tostar marshmallows! </resumo>
+		<titulo-personagens>Principais Personagens</titulo-personagens>
+		<personagens> 
+			<personagem>Bob Esponja </personagem>
+			<personagem>Patrick Estrela</personagem>
+			<personagem>Lula Molusco</personagem>
+			<personagem>Seu Sirigueijo</personagem>
+			<personagem>Sandy</personagem>
+			<personagem>Plankton</personagem>
+			<personagem>Pérola Sirigueijo</personagem>
+			<personagem>Gary</personagem>
+			<personagem>Karen</personagem>
+			<personagem>Senhora Puff</personagem>
+		</personagens>
+		<resenha>https://www.travessa.com.br/bob-esponja-na-idade-da-pedra/artigo/20c351e3-af5f-48e9-8cf8-c3f8f7bcfedd</resenha>
+		<video>src="https://www.youtube.com/embed/JgIZwvPU2Qo</video>
+	</filme>
+</filmes>
